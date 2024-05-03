@@ -5,6 +5,7 @@ quantity = random.choice(quantity) # choose randomly between these two numbers a
 
 def main():
     for i in range(6): #loop to print six sentenses
+        quantity = random.choice([1, 2]) # choose randomly between these two numbers and get the result to the variable for each sentense
         tense = random.choice(["past", "present", "future"]) #main function of the program. Inside it, we use random.choice(["past", "present", "future"]) to randomly choose between "past", "present" and "future" and assign the result to the tense variable
         sentence = make_sentence(quantity, tense)
         print(f"{i+1}. {sentence}") # Print the sentence with the count from 1 to 6
