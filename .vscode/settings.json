@@ -1,0 +1,5 @@
+{
+    "python.createEnvironment.contentButton": "show",
+    "javascript.preferences.useAliasesForRenames": false,
+    "typescript.preferences.useAliasesForRenames": false
+}
